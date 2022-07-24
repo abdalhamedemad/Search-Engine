@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="javax.servlet.jsp.jstl-1.2.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../javax.servlet.jsp.jstl-1.2.1.jar/javax.servlet.jsp.jstl-1.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Telegram Desktop/commons-io-2.11.0-tests.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Telegram Desktop/commons-io-2.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/Telegram Desktop/commons-io-2.11.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/Telegram Desktop/commons-io-2.11.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Telegram Desktop/commons-io-2.11.0-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
