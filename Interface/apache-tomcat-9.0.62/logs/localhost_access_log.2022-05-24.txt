@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [24/May/2022:18:52:11 +0200] "GET /index1.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/May/2022:18:52:11 +0200] "GET /css/style.css HTTP/1.1" 404 768
+0:0:0:0:0:0:0:1 - - [24/May/2022:18:52:28 +0200] "GET /getQuery?searchquery=java HTTP/1.1" 200 17186
+0:0:0:0:0:0:0:1 - - [24/May/2022:18:52:50 +0200] "GET /getQuery?searchquery= HTTP/1.1" 500 1201
+0:0:0:0:0:0:0:1 - - [24/May/2022:18:53:13 +0200] "GET /getQuery?searchquery=google HTTP/1.1" 200 19378
+0:0:0:0:0:0:0:1 - - [24/May/2022:18:54:32 +0200] "GET /getQuery?searchquery=google HTTP/1.1" 200 18792
+0:0:0:0:0:0:0:1 - - [24/May/2022:19:08:24 +0200] "GET /getQuery?searchquery=google!107 HTTP/1.1" 200 18945

@@ -1,0 +1,3681 @@
+22-May-2022 01:04:15.383 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 01:04:15.383 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 01:04:15.384 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 01:19:25.067 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 01:19:25.067 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 01:19:25.069 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 01:21:06.117 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 01:21:06.117 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 01:21:06.118 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 01:25:37.371 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 01:25:37.371 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 01:25:37.373 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 01:26:15.364 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [272] in the jsp file: [/New Text Document.jsp]
+array cannot be resolved to a variable
+269: });
+270: 
+271: var jsArray = new Array();
+272: <% for(String element:array){
+273: %> jsArray[jsArray.length] = <% element %>
+274: <% } %>
+275: 
+
+
+An error occurred at line: [273] in the jsp file: [/New Text Document.jsp]
+element cannot be resolved to a type
+270: 
+271: var jsArray = new Array();
+272: <% for(String element:array){
+273: %> jsArray[jsArray.length] = <% element %>
+274: <% } %>
+275: 
+276: 
+
+
+An error occurred at line: [273] in the jsp file: [/New Text Document.jsp]
+Duplicate local variable out
+270: 
+271: var jsArray = new Array();
+272: <% for(String element:array){
+273: %> jsArray[jsArray.length] = <% element %>
+274: <% } %>
+275: 
+276: 
+
+
+An error occurred at line: [273] in the jsp file: [/New Text Document.jsp]
+Syntax error on token ".", ; expected
+270: 
+271: var jsArray = new Array();
+272: <% for(String element:array){
+273: %> jsArray[jsArray.length] = <% element %>
+274: <% } %>
+275: 
+276: 
+
+
+An error occurred at line: [273] in the jsp file: [/New Text Document.jsp]
+The method write(char) is undefined for the type New_0020Text_0020Document_jsp
+270: 
+271: var jsArray = new Array();
+272: <% for(String element:array){
+273: %> jsArray[jsArray.length] = <% element %>
+274: <% } %>
+275: 
+276: 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [272] in the jsp file: [/New Text Document.jsp]
+array cannot be resolved to a variable
+269: });
+270: 
+271: var jsArray = new Array();
+272: <% for(String element:array){
+273: %> jsArray[jsArray.length] = <% element %>
+274: <% } %>
+275: 
+
+
+An error occurred at line: [273] in the jsp file: [/New Text Document.jsp]
+element cannot be resolved to a type
+270: 
+271: var jsArray = new Array();
+272: <% for(String element:array){
+273: %> jsArray[jsArray.length] = <% element %>
+274: <% } %>
+275: 
+276: 
+
+
+An error occurred at line: [273] in the jsp file: [/New Text Document.jsp]
+Duplicate local variable out
+270: 
+271: var jsArray = new Array();
+272: <% for(String element:array){
+273: %> jsArray[jsArray.length] = <% element %>
+274: <% } %>
+275: 
+276: 
+
+
+An error occurred at line: [273] in the jsp file: [/New Text Document.jsp]
+Syntax error on token ".", ; expected
+270: 
+271: var jsArray = new Array();
+272: <% for(String element:array){
+273: %> jsArray[jsArray.length] = <% element %>
+274: <% } %>
+275: 
+276: 
+
+
+An error occurred at line: [273] in the jsp file: [/New Text Document.jsp]
+The method write(char) is undefined for the type New_0020Text_0020Document_jsp
+270: 
+271: var jsArray = new Array();
+272: <% for(String element:array){
+273: %> jsArray[jsArray.length] = <% element %>
+274: <% } %>
+275: 
+276: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 01:37:46.471 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 01:37:46.471 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 01:37:46.472 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 01:40:30.884 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 01:40:30.884 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 01:40:30.885 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 01:40:42.844 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+array cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:array){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:array){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:array){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:array){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:array){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 01:40:42.844 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler2] in context with path [] threw exception
+	java.lang.RuntimeException: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+array cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:array){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:array){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:array){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:array){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:array){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at NewGender2.doGet(NewGender2.java:17)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+	Caused by: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+array cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:array){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:array){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:array){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:array){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:array){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		... 24 more
+22-May-2022 01:41:14.910 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 01:41:14.910 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler2] in context with path [] threw exception
+	java.lang.RuntimeException: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at NewGender2.doGet(NewGender2.java:17)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+	Caused by: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		... 24 more
+22-May-2022 01:43:27.625 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %>  <% element %>
+156: <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %>  <% element %>
+156: <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %>  <% element %>
+156: <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %>  <% element %>
+156: <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %>  <% element %>
+156: <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 01:43:27.625 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler2] in context with path [] threw exception
+	java.lang.RuntimeException: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %>  <% element %>
+156: <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %>  <% element %>
+156: <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %>  <% element %>
+156: <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %>  <% element %>
+156: <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %>  <% element %>
+156: <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+Stacktrace:
+		at NewGender2.doGet(NewGender2.java:17)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+	Caused by: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %>  <% element %>
+156: <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %>  <% element %>
+156: <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %>  <% element %>
+156: <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %>  <% element %>
+156: <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %>  <% element %>
+156: <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		... 24 more
+22-May-2022 01:43:52.544 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(String) is undefined for the type index2_jsp
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 01:43:52.544 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler2] in context with path [] threw exception
+	java.lang.RuntimeException: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(String) is undefined for the type index2_jsp
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+Stacktrace:
+		at NewGender2.doGet(NewGender2.java:17)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+	Caused by: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(String) is undefined for the type index2_jsp
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		... 24 more
+22-May-2022 01:44:09.670 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(String) is undefined for the type index2_jsp
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 01:44:09.671 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler2] in context with path [] threw exception
+	java.lang.RuntimeException: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(String) is undefined for the type index2_jsp
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+Stacktrace:
+		at NewGender2.doGet(NewGender2.java:17)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+	Caused by: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(String) is undefined for the type index2_jsp
+152: 
+153: // var animals = new Array();
+154: // <% for(String element:ss){
+155: // %>  <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		... 24 more
+22-May-2022 01:45:20.923 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 01:45:20.923 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler2] in context with path [] threw exception
+	java.lang.RuntimeException: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at NewGender2.doGet(NewGender2.java:17)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+	Caused by: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		... 24 more
+22-May-2022 01:51:12.265 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 01:51:12.265 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler2] in context with path [] threw exception
+	java.lang.RuntimeException: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at NewGender2.doGet(NewGender2.java:17)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+	Caused by: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+ss cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:ss){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		... 24 more
+22-May-2022 01:51:38.925 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+Syntax error, insert ")" to complete EnhancedForStatementHeader
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+$ cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+Syntax error on tokens, delete these tokens
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [291] in the generated java file: [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\work\Catalina\localhost\ROOT\org\apache\jsp\index2_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 01:51:38.925 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler2] in context with path [] threw exception
+	java.lang.RuntimeException: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+Syntax error, insert ")" to complete EnhancedForStatementHeader
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+$ cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+Syntax error on tokens, delete these tokens
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [291] in the generated java file: [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\work\Catalina\localhost\ROOT\org\apache\jsp\index2_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Stacktrace:
+		at NewGender2.doGet(NewGender2.java:17)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+	Caused by: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+Syntax error, insert ")" to complete EnhancedForStatementHeader
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+$ cannot be resolved to a variable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+Syntax error on tokens, delete these tokens
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:${ss}){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [291] in the generated java file: [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\work\Catalina\localhost\ROOT\org\apache\jsp\index2_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		... 24 more
+22-May-2022 01:53:12.746 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+Can only iterate over an array or an instance of java.lang.Iterable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 01:53:12.746 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler2] in context with path [] threw exception
+	java.lang.RuntimeException: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+Can only iterate over an array or an instance of java.lang.Iterable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at NewGender2.doGet(NewGender2.java:17)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+	Caused by: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+Can only iterate over an array or an instance of java.lang.Iterable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		... 24 more
+22-May-2022 01:53:14.011 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	java.lang.ClassNotFoundException: org.apache.jsp.index2_jsp
+		at java.net.URLClassLoader.findClass(Unknown Source)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:129)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:58)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:158)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:192)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:413)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 01:53:14.012 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler2] in context with path [] threw exception
+	java.lang.RuntimeException: org.apache.jasper.JasperException: org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.index2_jsp
+		at NewGender2.doGet(NewGender2.java:17)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+	Caused by: org.apache.jasper.JasperException: org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.index2_jsp
+		at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:589)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:425)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		... 24 more
+	Caused by: org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.index2_jsp
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:197)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:413)
+		... 37 more
+	Caused by: java.lang.ClassNotFoundException: org.apache.jsp.index2_jsp
+		at java.net.URLClassLoader.findClass(Unknown Source)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:129)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:58)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:158)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:192)
+		... 38 more
+22-May-2022 01:53:34.747 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+Can only iterate over an array or an instance of java.lang.Iterable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 01:53:34.747 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler2] in context with path [] threw exception
+	java.lang.RuntimeException: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+Can only iterate over an array or an instance of java.lang.Iterable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at NewGender2.doGet(NewGender2.java:17)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+	Caused by: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+Can only iterate over an array or an instance of java.lang.Iterable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(char) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: <% for(String element:"${ss}"){
+155: %> animals[jsArray.length] = <% element %>
+156: <% } %>
+157: 
+158: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		... 24 more
+22-May-2022 01:55:16.529 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+Can only iterate over an array or an instance of java.lang.Iterable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: // <% for(String element:"${ss}"){
+155: // %> animals[jsArray.length] = <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: // <% for(String element:"${ss}"){
+155: // %> animals[jsArray.length] = <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: // <% for(String element:"${ss}"){
+155: // %> animals[jsArray.length] = <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: // <% for(String element:"${ss}"){
+155: // %> animals[jsArray.length] = <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(String) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: // <% for(String element:"${ss}"){
+155: // %> animals[jsArray.length] = <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 01:55:16.529 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler2] in context with path [] threw exception
+	java.lang.RuntimeException: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+Can only iterate over an array or an instance of java.lang.Iterable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: // <% for(String element:"${ss}"){
+155: // %> animals[jsArray.length] = <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: // <% for(String element:"${ss}"){
+155: // %> animals[jsArray.length] = <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: // <% for(String element:"${ss}"){
+155: // %> animals[jsArray.length] = <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: // <% for(String element:"${ss}"){
+155: // %> animals[jsArray.length] = <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(String) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: // <% for(String element:"${ss}"){
+155: // %> animals[jsArray.length] = <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+Stacktrace:
+		at NewGender2.doGet(NewGender2.java:17)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+	Caused by: org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [154] in the jsp file: [/index2.jsp]
+Can only iterate over an array or an instance of java.lang.Iterable
+151: // var fs = require('fs');
+152: 
+153: var animals = new Array();
+154: // <% for(String element:"${ss}"){
+155: // %> animals[jsArray.length] = <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+element cannot be resolved to a type
+152: 
+153: var animals = new Array();
+154: // <% for(String element:"${ss}"){
+155: // %> animals[jsArray.length] = <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Duplicate local variable out
+152: 
+153: var animals = new Array();
+154: // <% for(String element:"${ss}"){
+155: // %> animals[jsArray.length] = <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+Syntax error on token ".", ; expected
+152: 
+153: var animals = new Array();
+154: // <% for(String element:"${ss}"){
+155: // %> animals[jsArray.length] = <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+An error occurred at line: [155] in the jsp file: [/index2.jsp]
+The method write(String) is undefined for the type index2_jsp
+152: 
+153: var animals = new Array();
+154: // <% for(String element:"${ss}"){
+155: // %> animals[jsArray.length] = <% element %>
+156: // <% } %>
+157: <c:forEach items="${ss}" var="ss1">
+158:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		... 24 more
+22-May-2022 01:56:11.979 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	javax.el.PropertyNotFoundException: Property [url5] not found on type [java.lang.String]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:249)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:201)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:322)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:83)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:124)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:692)
+		at org.apache.jsp.index2_jsp._jspx_meth_c_005fforEach_005f0(index2_jsp.java:330)
+		at org.apache.jsp.index2_jsp._jspService(index2_jsp.java:281)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 01:56:11.980 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler2] in context with path [] threw exception
+	java.lang.RuntimeException: org.apache.jasper.JasperException: An exception occurred processing [/index2.jsp] at line [156]
+
+153: var animals = new Array();
+154: 
+155: <c:forEach items="${ss}" var="ss1">
+156:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+157: animals[jsArray.length] ="${ss1}";
+158: </c:forEach>
+159: 
+
+
+Stacktrace:
+		at NewGender2.doGet(NewGender2.java:17)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+	Caused by: org.apache.jasper.JasperException: An exception occurred processing [/index2.jsp] at line [156]
+
+153: var animals = new Array();
+154: 
+155: <c:forEach items="${ss}" var="ss1">
+156:     // <li><a href="${ss1.url5}" title="" >${ss1.pagenum}</a></li>
+157: animals[jsArray.length] ="${ss1}";
+158: </c:forEach>
+159: 
+
+
+Stacktrace:
+		at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:610)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:499)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+		at NewGender2.doGet(NewGender2.java:15)
+		... 24 more
+	Caused by: javax.el.PropertyNotFoundException: Property [url5] not found on type [java.lang.String]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:249)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:201)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:322)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:83)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:124)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:692)
+		at org.apache.jsp.index2_jsp._jspx_meth_c_005fforEach_005f0(index2_jsp.java:330)
+		at org.apache.jsp.index2_jsp._jspService(index2_jsp.java:281)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		... 37 more
+22-May-2022 02:18:41.714 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 02:18:41.714 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 02:18:41.715 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 02:20:44.404 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 02:20:44.404 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 02:20:44.405 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 02:22:39.220 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 02:22:39.220 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 02:22:39.221 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 02:22:44.311 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler] in context with path [] threw exception
+	java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+		at java.lang.String.charAt(Unknown Source)
+		at NewGender.doGet(NewGender.java:46)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 02:30:11.248 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 02:30:11.248 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 02:30:11.249 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 13:18:38.631 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 13:18:38.631 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 13:18:38.631 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 13:33:26.887 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 13:33:26.888 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 13:33:26.889 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 13:37:52.939 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 13:37:52.939 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 13:37:52.941 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 13:41:24.642 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler] in context with path [] threw exception
+	java.lang.StringIndexOutOfBoundsException: String index out of range: 44
+		at java.lang.String.substring(Unknown Source)
+		at NewGender$Ranker.Ranking(NewGender.java:398)
+		at NewGender.doGet(NewGender.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 13:52:21.579 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 13:52:21.579 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 13:52:21.581 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 13:53:10.420 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler] in context with path [] threw exception
+	java.lang.StringIndexOutOfBoundsException: String index out of range: 44
+		at java.lang.String.substring(Unknown Source)
+		at NewGender$Ranker.Ranking(NewGender.java:402)
+		at NewGender.doGet(NewGender.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 13:56:24.625 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 13:56:24.625 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 13:56:24.627 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 13:57:55.652 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler] in context with path [] threw exception
+	java.lang.StringIndexOutOfBoundsException: String index out of range: 5516
+		at java.lang.String.substring(Unknown Source)
+		at NewGender$Ranker.Ranking(NewGender.java:379)
+		at NewGender.doGet(NewGender.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 14:03:00.317 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 14:03:00.317 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 14:03:00.318 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 14:05:38.862 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 14:05:38.862 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 14:05:38.863 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 14:09:46.456 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 14:09:46.456 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 14:09:46.457 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 15:03:43.569 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 15:03:43.569 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 15:03:43.569 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 15:29:33.600 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 15:29:33.600 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 15:29:33.603 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 15:29:47.340 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Marking servlet [QueryHandler2] as unavailable
+22-May-2022 15:29:47.341 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Allocate exception for servlet [QueryHandler2]
+	java.lang.ClassNotFoundException: NewGender2
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1412)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1220)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:534)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:515)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:149)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1070)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:788)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:128)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 15:30:58.760 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 15:30:58.760 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 15:30:58.761 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 15:32:32.087 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 15:32:32.087 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 15:32:32.089 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 15:46:50.558 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 15:46:50.558 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 15:46:50.559 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 15:51:10.975 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 15:51:10.975 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 15:51:10.976 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 16:21:06.951 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 16:21:06.951 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 16:21:06.951 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 16:43:45.011 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-May-2022 16:43:45.011 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-May-2022 16:43:45.013 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@448b808a')
+22-May-2022 18:16:09.269 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler] in context with path [] threw exception
+	java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+		at java.lang.String.charAt(Unknown Source)
+		at NewGender.doGet(NewGender.java:46)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+22-May-2022 20:06:57.259 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [QueryHandler] in context with path [] threw exception
+	java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+		at java.lang.String.charAt(Unknown Source)
+		at NewGender.doGet(NewGender.java:46)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)

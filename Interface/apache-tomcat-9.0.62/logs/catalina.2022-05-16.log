@@ -1,0 +1,585 @@
+16-May-2022 09:58:35.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+16-May-2022 09:58:35.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+16-May-2022 09:58:35.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+16-May-2022 09:58:35.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-May-2022 09:58:35.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2022 09:58:35.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2022 09:58:35.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+16-May-2022 09:58:35.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+16-May-2022 09:58:35.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2022 09:58:35.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 09:58:35.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 09:58:35.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+16-May-2022 09:58:35.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2022 09:58:35.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2022 09:58:35.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2022 09:58:35.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2022 09:58:35.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 09:58:35.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 09:58:35.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+16-May-2022 09:58:35.873 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+16-May-2022 09:58:35.873 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2022 09:58:35.875 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2022 09:58:35.880 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+16-May-2022 09:58:36.138 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2022 09:58:36.156 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [424] milliseconds
+16-May-2022 09:58:36.244 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2022 09:58:36.245 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+16-May-2022 09:58:36.300 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+16-May-2022 09:58:37.091 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 09:58:37.276 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [154] milliseconds.
+16-May-2022 09:58:37.295 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [995] ms
+16-May-2022 09:58:37.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+16-May-2022 09:58:38.657 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 09:58:38.707 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [1,410] ms
+16-May-2022 09:58:38.707 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+16-May-2022 09:58:39.220 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 09:58:39.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [520] ms
+16-May-2022 09:58:39.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+16-May-2022 09:58:39.652 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 09:58:39.659 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [431] ms
+16-May-2022 09:58:39.660 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+16-May-2022 09:58:40.032 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 09:58:40.042 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [382] ms
+16-May-2022 09:58:40.047 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2022 09:58:40.069 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3913] milliseconds
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2022 10:17:23.379 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2022 10:17:23.394 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+16-May-2022 10:17:23.653 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2022 10:17:23.669 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [408] milliseconds
+16-May-2022 10:17:23.692 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2022 10:17:23.692 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+16-May-2022 10:17:23.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+16-May-2022 10:17:24.276 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:17:24.477 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [170] milliseconds.
+16-May-2022 10:17:24.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [800] ms
+16-May-2022 10:17:24.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+16-May-2022 10:17:24.971 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:17:25.025 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [533] ms
+16-May-2022 10:17:25.025 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+16-May-2022 10:17:25.374 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:17:25.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [353] ms
+16-May-2022 10:17:25.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+16-May-2022 10:17:25.726 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:17:25.726 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [348] ms
+16-May-2022 10:17:25.726 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+16-May-2022 10:17:26.101 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:17:26.113 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [387] ms
+16-May-2022 10:17:26.113 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2022 10:17:26.133 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2465] milliseconds
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2022 10:25:08.186 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+16-May-2022 10:25:08.436 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2022 10:25:08.451 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [401] milliseconds
+16-May-2022 10:25:08.483 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2022 10:25:08.483 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+16-May-2022 10:25:08.483 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+16-May-2022 10:25:09.003 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:25:09.176 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [156] milliseconds.
+16-May-2022 10:25:09.192 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [709] ms
+16-May-2022 10:25:09.192 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+16-May-2022 10:25:09.615 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:25:09.662 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [470] ms
+16-May-2022 10:25:09.662 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+16-May-2022 10:25:09.950 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:25:09.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [288] ms
+16-May-2022 10:25:09.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+16-May-2022 10:25:10.248 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:25:10.248 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [298] ms
+16-May-2022 10:25:10.248 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+16-May-2022 10:25:10.578 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:25:10.578 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [330] ms
+16-May-2022 10:25:10.578 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2022 10:25:10.594 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2145] milliseconds
+16-May-2022 10:28:04.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+16-May-2022 10:28:04.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+16-May-2022 10:28:04.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+16-May-2022 10:28:04.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-May-2022 10:28:04.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2022 10:28:04.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2022 10:28:04.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+16-May-2022 10:28:04.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+16-May-2022 10:28:04.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2022 10:28:04.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:28:04.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:28:04.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+16-May-2022 10:28:04.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2022 10:28:04.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2022 10:28:04.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2022 10:28:04.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2022 10:28:04.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:28:04.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:28:04.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+16-May-2022 10:28:04.292 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+16-May-2022 10:28:04.292 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2022 10:28:04.292 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2022 10:28:04.292 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+16-May-2022 10:28:04.617 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2022 10:28:04.651 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [496] milliseconds
+16-May-2022 10:28:04.674 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2022 10:28:04.674 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+16-May-2022 10:28:04.690 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+16-May-2022 10:28:05.284 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:28:05.471 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [156] milliseconds.
+16-May-2022 10:28:05.487 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [797] ms
+16-May-2022 10:28:05.487 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+16-May-2022 10:28:05.946 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:28:05.993 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [506] ms
+16-May-2022 10:28:05.993 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+16-May-2022 10:28:06.262 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:28:06.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [285] ms
+16-May-2022 10:28:06.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+16-May-2022 10:28:06.559 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:28:06.575 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [297] ms
+16-May-2022 10:28:06.575 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+16-May-2022 10:28:06.907 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:28:06.922 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [347] ms
+16-May-2022 10:28:06.922 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2022 10:28:06.938 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2291] milliseconds
+16-May-2022 10:45:17.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+16-May-2022 10:45:17.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2022 10:45:17.866 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+16-May-2022 10:45:18.117 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2022 10:45:18.133 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [403] milliseconds
+16-May-2022 10:45:18.164 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2022 10:45:18.164 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+16-May-2022 10:45:18.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+16-May-2022 10:45:18.682 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:45:18.865 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [152] milliseconds.
+16-May-2022 10:45:18.880 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [716] ms
+16-May-2022 10:45:18.880 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+16-May-2022 10:45:19.303 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:45:19.349 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [469] ms
+16-May-2022 10:45:19.349 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+16-May-2022 10:45:19.629 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:45:19.629 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [280] ms
+16-May-2022 10:45:19.629 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+16-May-2022 10:45:19.943 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:45:19.943 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [314] ms
+16-May-2022 10:45:19.943 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+16-May-2022 10:45:20.286 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:45:20.286 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [343] ms
+16-May-2022 10:45:20.302 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2022 10:45:20.302 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2174] milliseconds
+16-May-2022 10:59:25.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+16-May-2022 10:59:25.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+16-May-2022 10:59:25.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+16-May-2022 10:59:25.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2022 10:59:25.338 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+16-May-2022 10:59:25.575 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2022 10:59:25.607 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [398] milliseconds
+16-May-2022 10:59:25.623 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2022 10:59:25.623 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+16-May-2022 10:59:25.639 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+16-May-2022 10:59:26.163 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:59:26.351 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [157] milliseconds.
+16-May-2022 10:59:26.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [728] ms
+16-May-2022 10:59:26.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+16-May-2022 10:59:26.797 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:59:26.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [492] ms
+16-May-2022 10:59:26.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+16-May-2022 10:59:27.153 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:59:27.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [310] ms
+16-May-2022 10:59:27.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+16-May-2022 10:59:27.497 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:59:27.512 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [343] ms
+16-May-2022 10:59:27.512 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+16-May-2022 10:59:27.867 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 10:59:27.882 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [370] ms
+16-May-2022 10:59:27.882 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2022 10:59:27.898 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2296] milliseconds
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:02:27.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:02:27.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+16-May-2022 11:02:27.929 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+16-May-2022 11:02:27.929 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2022 11:02:27.929 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2022 11:02:27.929 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+16-May-2022 11:02:28.177 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2022 11:02:28.198 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [400] milliseconds
+16-May-2022 11:02:28.229 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2022 11:02:28.229 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+16-May-2022 11:02:28.229 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+16-May-2022 11:02:28.778 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:02:28.962 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [163] milliseconds.
+16-May-2022 11:02:28.977 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [748] ms
+16-May-2022 11:02:28.977 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+16-May-2022 11:02:29.431 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:02:29.493 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [516] ms
+16-May-2022 11:02:29.493 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+16-May-2022 11:02:29.815 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:02:29.825 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [332] ms
+16-May-2022 11:02:29.825 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+16-May-2022 11:02:30.138 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:02:30.148 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [323] ms
+16-May-2022 11:02:30.148 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+16-May-2022 11:02:30.503 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:02:30.513 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [363] ms
+16-May-2022 11:02:30.513 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2022 11:02:30.523 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2324] milliseconds
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2022 11:06:10.663 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+16-May-2022 11:06:10.916 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2022 11:06:10.932 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [409] milliseconds
+16-May-2022 11:06:10.963 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2022 11:06:10.963 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+16-May-2022 11:06:10.963 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+16-May-2022 11:06:11.498 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:06:11.677 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [147] milliseconds.
+16-May-2022 11:06:11.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [729] ms
+16-May-2022 11:06:11.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+16-May-2022 11:06:12.134 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:06:12.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [489] ms
+16-May-2022 11:06:12.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+16-May-2022 11:06:12.463 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:06:12.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [282] ms
+16-May-2022 11:06:12.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+16-May-2022 11:06:12.778 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:06:12.778 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [315] ms
+16-May-2022 11:06:12.778 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+16-May-2022 11:06:13.123 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:06:13.123 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [345] ms
+16-May-2022 11:06:13.123 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2022 11:06:13.143 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2207] milliseconds
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:09:46.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:09:46.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+16-May-2022 11:09:46.625 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+16-May-2022 11:09:46.625 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2022 11:09:46.625 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2022 11:09:46.625 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+16-May-2022 11:09:46.892 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2022 11:09:46.924 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [426] milliseconds
+16-May-2022 11:09:46.939 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2022 11:09:46.939 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+16-May-2022 11:09:46.955 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+16-May-2022 11:09:47.491 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:09:47.694 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [172] milliseconds.
+16-May-2022 11:09:47.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [755] ms
+16-May-2022 11:09:47.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+16-May-2022 11:09:48.139 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:09:48.187 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [477] ms
+16-May-2022 11:09:48.187 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+16-May-2022 11:09:48.501 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:09:48.501 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [314] ms
+16-May-2022 11:09:48.501 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+16-May-2022 11:09:48.804 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:09:48.819 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [318] ms
+16-May-2022 11:09:48.819 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+16-May-2022 11:09:49.179 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:09:49.203 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [384] ms
+16-May-2022 11:09:49.207 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2022 11:09:49.208 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2293] milliseconds
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:12:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+16-May-2022 11:12:43.019 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+16-May-2022 11:12:43.019 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2022 11:12:43.019 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2022 11:12:43.019 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+16-May-2022 11:12:43.254 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2022 11:12:43.285 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [392] milliseconds
+16-May-2022 11:12:43.300 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2022 11:12:43.300 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+16-May-2022 11:12:43.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+16-May-2022 11:12:43.867 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:12:44.040 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [156] milliseconds.
+16-May-2022 11:12:44.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [742] ms
+16-May-2022 11:12:44.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+16-May-2022 11:12:44.512 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:12:44.559 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [501] ms
+16-May-2022 11:12:44.559 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+16-May-2022 11:12:44.876 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:12:44.876 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [317] ms
+16-May-2022 11:12:44.876 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+16-May-2022 11:12:45.236 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:12:45.252 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [376] ms
+16-May-2022 11:12:45.252 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+16-May-2022 11:12:45.597 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:12:45.597 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [345] ms
+16-May-2022 11:12:45.613 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2022 11:12:45.629 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2342] milliseconds
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+16-May-2022 11:21:26.444 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2022 11:21:26.460 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2022 11:21:26.461 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+16-May-2022 11:21:26.696 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2022 11:21:26.712 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [393] milliseconds
+16-May-2022 11:21:26.743 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2022 11:21:26.743 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+16-May-2022 11:21:26.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+16-May-2022 11:21:27.308 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:21:27.519 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [179] milliseconds.
+16-May-2022 11:21:27.534 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [775] ms
+16-May-2022 11:21:27.534 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+16-May-2022 11:21:27.989 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:21:28.035 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [501] ms
+16-May-2022 11:21:28.035 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+16-May-2022 11:21:28.382 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:21:28.382 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [347] ms
+16-May-2022 11:21:28.382 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+16-May-2022 11:21:28.779 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:21:28.779 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [397] ms
+16-May-2022 11:21:28.795 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+16-May-2022 11:21:29.135 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:21:29.135 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [340] ms
+16-May-2022 11:21:29.151 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2022 11:21:29.167 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2442] milliseconds
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:30:45.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+16-May-2022 11:30:45.851 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+16-May-2022 11:30:45.851 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2022 11:30:45.851 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2022 11:30:45.851 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+16-May-2022 11:30:46.098 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2022 11:30:46.120 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [409] milliseconds
+16-May-2022 11:30:46.136 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2022 11:30:46.136 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+16-May-2022 11:30:46.152 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+16-May-2022 11:30:46.684 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:30:46.868 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [153] milliseconds.
+16-May-2022 11:30:46.884 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [732] ms
+16-May-2022 11:30:46.884 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+16-May-2022 11:30:47.353 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:30:47.416 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [532] ms
+16-May-2022 11:30:47.416 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+16-May-2022 11:30:47.738 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:30:47.754 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [338] ms
+16-May-2022 11:30:47.754 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+16-May-2022 11:30:48.135 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:30:48.135 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [381] ms
+16-May-2022 11:30:48.135 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+16-May-2022 11:30:48.467 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:30:48.477 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [342] ms
+16-May-2022 11:30:48.479 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2022 11:30:48.497 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2372] milliseconds
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2022 11:32:56.793 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+16-May-2022 11:32:57.044 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2022 11:32:57.060 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [402] milliseconds
+16-May-2022 11:32:57.092 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2022 11:32:57.092 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+16-May-2022 11:32:57.108 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+16-May-2022 11:32:57.650 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:32:57.838 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [157] milliseconds.
+16-May-2022 11:32:57.854 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [746] ms
+16-May-2022 11:32:57.854 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+16-May-2022 11:32:58.277 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:32:58.324 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [470] ms
+16-May-2022 11:32:58.324 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+16-May-2022 11:32:58.638 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:32:58.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [330] ms
+16-May-2022 11:32:58.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+16-May-2022 11:32:58.997 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:32:58.997 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [343] ms
+16-May-2022 11:32:58.997 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+16-May-2022 11:32:59.361 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2022 11:32:59.361 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [364] ms
+16-May-2022 11:32:59.376 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2022 11:32:59.392 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2320] milliseconds

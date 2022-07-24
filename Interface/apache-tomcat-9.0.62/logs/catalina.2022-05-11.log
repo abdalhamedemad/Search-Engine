@@ -1,0 +1,799 @@
+11-May-2022 13:42:02.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+11-May-2022 13:42:02.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+11-May-2022 13:42:02.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+11-May-2022 13:42:02.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2022 13:42:02.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2022 13:42:02.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2022 13:42:02.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+11-May-2022 13:42:02.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+11-May-2022 13:42:02.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2022 13:42:02.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 13:42:02.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 13:42:02.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+11-May-2022 13:42:02.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2022 13:42:02.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2022 13:42:02.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2022 13:42:02.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2022 13:42:02.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 13:42:02.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 13:42:02.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+11-May-2022 13:42:02.375 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+11-May-2022 13:42:02.375 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2022 13:42:02.375 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2022 13:42:02.375 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+11-May-2022 13:42:03.088 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2022 13:42:03.167 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1031] milliseconds
+11-May-2022 13:42:03.275 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2022 13:42:03.275 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+11-May-2022 13:42:03.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+11-May-2022 13:42:04.348 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [617] milliseconds.
+11-May-2022 13:42:04.403 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [1,085] ms
+11-May-2022 13:42:04.409 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+11-May-2022 13:42:05.365 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [956] ms
+11-May-2022 13:42:05.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+11-May-2022 13:42:05.425 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [47] ms
+11-May-2022 13:42:05.425 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+11-May-2022 13:42:05.478 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [53] ms
+11-May-2022 13:42:05.478 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+11-May-2022 13:42:05.518 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [40] ms
+11-May-2022 13:42:05.528 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2022 13:42:05.557 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2388] milliseconds
+11-May-2022 14:45:04.892 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context []
+11-May-2022 14:45:05.240 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-May-2022 14:45:06.809 SEVERE [Catalina-utility-2] org.apache.tomcat.util.digester.Digester.endElement End event threw exception
+	java.lang.reflect.InvocationTargetException
+		at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:488)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:1087)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1046)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1277)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3818)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1443)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+		at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [QueryHandler] and [QueryHandler] are both mapped to the url-pattern [] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:343)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:336)
+		... 42 more
+11-May-2022 14:45:06.895 SEVERE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/C:/Users/medoa/Desktop/apache-tomcat-9.0.62-windows-x64/apache-tomcat-9.0.62/webapps/ROOT/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/C:/Users/medoa/Desktop/apache-tomcat-9.0.62-windows-x64/apache-tomcat-9.0.62/webapps/ROOT/WEB-INF/web.xml; lineNumber: 38; columnNumber: 23; Error at line [38] column [23]: [The servlets named [QueryHandler] and [QueryHandler] are both mapped to the url-pattern [] which is not permitted]
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1966)
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1998)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1049)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1277)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3818)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1443)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+		at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [QueryHandler] and [QueryHandler] are both mapped to the url-pattern [] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:343)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:336)
+		at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:488)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:1087)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1046)
+		... 36 more
+11-May-2022 14:45:06.950 SEVERE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [38] column [23]
+11-May-2022 14:45:07.002 SEVERE [Catalina-utility-2] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+11-May-2022 14:45:07.007 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+11-May-2022 14:45:07.049 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal Context [] startup failed due to previous errors
+11-May-2022 14:45:07.064 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-May-2022 14:46:07.460 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context []
+11-May-2022 14:48:22.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+11-May-2022 14:48:22.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+11-May-2022 14:48:22.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+11-May-2022 14:48:22.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2022 14:48:22.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2022 14:48:22.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2022 14:48:22.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+11-May-2022 14:48:22.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+11-May-2022 14:48:22.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2022 14:48:22.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:48:22.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:48:22.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+11-May-2022 14:48:22.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2022 14:48:22.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2022 14:48:22.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2022 14:48:22.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2022 14:48:22.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:48:22.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:48:22.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+11-May-2022 14:48:22.806 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+11-May-2022 14:48:22.808 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2022 14:48:22.810 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2022 14:48:22.816 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+11-May-2022 14:48:23.749 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2022 14:48:23.792 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1227] milliseconds
+11-May-2022 14:48:23.850 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2022 14:48:23.850 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+11-May-2022 14:48:23.867 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+11-May-2022 14:48:24.395 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [231] milliseconds.
+11-May-2022 14:48:24.423 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [556] ms
+11-May-2022 14:48:24.424 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+11-May-2022 14:48:25.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [1,510] ms
+11-May-2022 14:48:25.934 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+11-May-2022 14:48:26.219 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [284] ms
+11-May-2022 14:48:26.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+11-May-2022 14:48:26.553 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [332] ms
+11-May-2022 14:48:26.554 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+11-May-2022 14:48:26.662 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [109] ms
+11-May-2022 14:48:26.681 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2022 14:48:26.746 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2952] milliseconds
+11-May-2022 14:55:17.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+11-May-2022 14:55:17.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+11-May-2022 14:55:17.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+11-May-2022 14:55:17.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2022 14:55:17.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2022 14:55:17.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2022 14:55:17.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+11-May-2022 14:55:17.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+11-May-2022 14:55:17.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2022 14:55:17.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:55:17.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:55:17.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+11-May-2022 14:55:17.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2022 14:55:17.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2022 14:55:17.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2022 14:55:17.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2022 14:55:17.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:55:17.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:55:17.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+11-May-2022 14:55:17.031 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+11-May-2022 14:55:17.031 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2022 14:55:17.033 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2022 14:55:17.038 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+11-May-2022 14:55:17.601 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2022 14:55:17.637 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [803] milliseconds
+11-May-2022 14:55:17.684 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2022 14:55:17.685 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+11-May-2022 14:55:17.697 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+11-May-2022 14:55:18.208 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [276] milliseconds.
+11-May-2022 14:55:18.238 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [541] ms
+11-May-2022 14:55:18.239 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+11-May-2022 14:55:18.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [465] ms
+11-May-2022 14:55:18.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+11-May-2022 14:55:18.761 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [57] ms
+11-May-2022 14:55:18.762 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+11-May-2022 14:55:18.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [39] ms
+11-May-2022 14:55:18.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+11-May-2022 14:55:18.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [46] ms
+11-May-2022 14:55:18.853 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2022 14:55:18.876 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1238] milliseconds
+11-May-2022 14:56:09.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+11-May-2022 14:56:09.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+11-May-2022 14:56:09.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+11-May-2022 14:56:09.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2022 14:56:09.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2022 14:56:09.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2022 14:56:09.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+11-May-2022 14:56:09.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+11-May-2022 14:56:09.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2022 14:56:09.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:56:09.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:56:09.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+11-May-2022 14:56:09.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2022 14:56:09.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2022 14:56:09.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2022 14:56:09.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2022 14:56:09.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:56:09.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:56:09.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+11-May-2022 14:56:09.399 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+11-May-2022 14:56:09.401 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2022 14:56:09.404 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2022 14:56:09.408 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+11-May-2022 14:56:09.782 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2022 14:56:09.795 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1049)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1042)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Unknown Source)
+		at sun.nio.ch.Net.bind(Unknown Source)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:274)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:229)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1227)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1240)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:603)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1046)
+		... 13 more
+11-May-2022 14:56:09.806 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [582] milliseconds
+11-May-2022 14:56:09.849 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2022 14:56:09.850 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+11-May-2022 14:56:09.861 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+11-May-2022 14:56:10.373 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [239] milliseconds.
+11-May-2022 14:56:10.394 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [533] ms
+11-May-2022 14:56:10.395 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+11-May-2022 14:56:10.757 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [362] ms
+11-May-2022 14:56:10.757 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+11-May-2022 14:56:10.811 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [54] ms
+11-May-2022 14:56:10.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+11-May-2022 14:56:10.865 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [53] ms
+11-May-2022 14:56:10.866 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+11-May-2022 14:56:10.912 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [47] ms
+11-May-2022 14:56:10.918 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1111] milliseconds
+11-May-2022 14:56:10.923 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: JVM_Bind
+		at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+		at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+		at java.net.PlainSocketImpl.bind(Unknown Source)
+		at java.net.ServerSocket.bind(Unknown Source)
+		at java.net.ServerSocket.<init>(Unknown Source)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:577)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+11-May-2022 14:56:10.924 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-May-2022 14:56:10.925 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-May-2022 14:56:10.962 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-May-2022 14:56:10.965 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-May-2022 14:56:18.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+11-May-2022 14:56:18.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+11-May-2022 14:56:18.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+11-May-2022 14:56:18.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2022 14:56:18.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2022 14:56:18.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2022 14:56:18.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+11-May-2022 14:56:18.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+11-May-2022 14:56:18.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2022 14:56:18.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:56:18.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:56:18.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+11-May-2022 14:56:18.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2022 14:56:18.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2022 14:56:18.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2022 14:56:18.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2022 14:56:18.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:56:18.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:56:18.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+11-May-2022 14:56:18.072 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+11-May-2022 14:56:18.072 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2022 14:56:18.072 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2022 14:56:18.077 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+11-May-2022 14:56:18.428 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2022 14:56:18.460 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [567] milliseconds
+11-May-2022 14:56:18.501 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2022 14:56:18.501 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+11-May-2022 14:56:18.512 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+11-May-2022 14:56:18.972 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [224] milliseconds.
+11-May-2022 14:56:18.995 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [483] ms
+11-May-2022 14:56:18.995 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+11-May-2022 14:56:19.370 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [375] ms
+11-May-2022 14:56:19.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+11-May-2022 14:56:19.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [41] ms
+11-May-2022 14:56:19.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+11-May-2022 14:56:19.453 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [41] ms
+11-May-2022 14:56:19.453 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+11-May-2022 14:56:19.498 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [45] ms
+11-May-2022 14:56:19.505 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2022 14:56:19.522 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1062] milliseconds
+11-May-2022 14:58:00.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+11-May-2022 14:58:00.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+11-May-2022 14:58:00.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+11-May-2022 14:58:00.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2022 14:58:00.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2022 14:58:00.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2022 14:58:00.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+11-May-2022 14:58:00.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+11-May-2022 14:58:00.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2022 14:58:00.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:58:00.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:58:00.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+11-May-2022 14:58:00.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2022 14:58:00.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2022 14:58:00.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2022 14:58:00.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2022 14:58:00.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:58:00.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:58:00.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+11-May-2022 14:58:00.929 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+11-May-2022 14:58:00.930 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2022 14:58:00.930 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2022 14:58:00.936 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+11-May-2022 14:58:01.299 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2022 14:58:01.322 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [565] milliseconds
+11-May-2022 14:58:01.361 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2022 14:58:01.361 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+11-May-2022 14:58:01.376 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+11-May-2022 14:58:01.808 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [216] milliseconds.
+11-May-2022 14:58:01.830 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [454] ms
+11-May-2022 14:58:01.830 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+11-May-2022 14:58:02.229 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [399] ms
+11-May-2022 14:58:02.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+11-May-2022 14:58:02.274 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [44] ms
+11-May-2022 14:58:02.274 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+11-May-2022 14:58:02.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [34] ms
+11-May-2022 14:58:02.309 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+11-May-2022 14:58:02.352 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [42] ms
+11-May-2022 14:58:02.358 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2022 14:58:02.377 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1054] milliseconds
+11-May-2022 14:59:26.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+11-May-2022 14:59:26.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+11-May-2022 14:59:26.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+11-May-2022 14:59:26.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2022 14:59:26.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2022 14:59:26.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2022 14:59:26.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+11-May-2022 14:59:26.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+11-May-2022 14:59:26.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2022 14:59:26.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:59:26.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:59:26.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+11-May-2022 14:59:26.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2022 14:59:26.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2022 14:59:26.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2022 14:59:26.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2022 14:59:26.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:59:26.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 14:59:26.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+11-May-2022 14:59:26.062 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+11-May-2022 14:59:26.063 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2022 14:59:26.066 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2022 14:59:26.075 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+11-May-2022 14:59:26.534 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2022 14:59:26.578 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [777] milliseconds
+11-May-2022 14:59:26.626 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2022 14:59:26.627 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+11-May-2022 14:59:26.642 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+11-May-2022 14:59:27.192 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [274] milliseconds.
+11-May-2022 14:59:27.218 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [576] ms
+11-May-2022 14:59:27.219 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+11-May-2022 14:59:27.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [490] ms
+11-May-2022 14:59:27.709 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+11-May-2022 14:59:27.777 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [68] ms
+11-May-2022 14:59:27.777 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+11-May-2022 14:59:27.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [57] ms
+11-May-2022 14:59:27.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+11-May-2022 14:59:27.884 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [49] ms
+11-May-2022 14:59:27.891 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2022 14:59:27.911 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1331] milliseconds
+11-May-2022 15:00:12.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+11-May-2022 15:00:12.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+11-May-2022 15:00:12.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+11-May-2022 15:00:12.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2022 15:00:12.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2022 15:00:12.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2022 15:00:12.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+11-May-2022 15:00:12.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+11-May-2022 15:00:12.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2022 15:00:12.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:00:12.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:00:12.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+11-May-2022 15:00:12.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2022 15:00:12.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2022 15:00:12.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2022 15:00:12.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2022 15:00:12.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:00:12.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:00:12.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+11-May-2022 15:00:12.960 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+11-May-2022 15:00:12.960 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2022 15:00:12.961 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2022 15:00:12.966 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+11-May-2022 15:00:13.320 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:00:13.350 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [570] milliseconds
+11-May-2022 15:00:13.393 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2022 15:00:13.393 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+11-May-2022 15:00:13.407 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+11-May-2022 15:00:13.879 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [261] milliseconds.
+11-May-2022 15:00:13.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [510] ms
+11-May-2022 15:00:13.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+11-May-2022 15:00:14.310 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [392] ms
+11-May-2022 15:00:14.311 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+11-May-2022 15:00:14.352 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [42] ms
+11-May-2022 15:00:14.352 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+11-May-2022 15:00:14.386 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [34] ms
+11-May-2022 15:00:14.386 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+11-May-2022 15:00:14.434 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [48] ms
+11-May-2022 15:00:14.440 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:00:14.457 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1106] milliseconds
+11-May-2022 15:02:44.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+11-May-2022 15:02:44.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+11-May-2022 15:02:44.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+11-May-2022 15:02:44.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2022 15:02:44.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2022 15:02:44.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2022 15:02:44.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+11-May-2022 15:02:44.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+11-May-2022 15:02:44.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2022 15:02:44.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:02:44.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:02:44.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+11-May-2022 15:02:44.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2022 15:02:44.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2022 15:02:44.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2022 15:02:44.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2022 15:02:44.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:02:44.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:02:44.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+11-May-2022 15:02:44.557 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+11-May-2022 15:02:44.558 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2022 15:02:44.558 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2022 15:02:44.567 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+11-May-2022 15:02:44.857 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:02:44.885 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [524] milliseconds
+11-May-2022 15:02:44.917 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2022 15:02:44.917 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+11-May-2022 15:02:44.925 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+11-May-2022 15:02:45.264 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [179] milliseconds.
+11-May-2022 15:02:45.283 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [358] ms
+11-May-2022 15:02:45.283 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+11-May-2022 15:02:45.598 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [315] ms
+11-May-2022 15:02:45.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+11-May-2022 15:02:45.659 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [61] ms
+11-May-2022 15:02:45.660 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+11-May-2022 15:02:45.700 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [39] ms
+11-May-2022 15:02:45.701 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+11-May-2022 15:02:45.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [47] ms
+11-May-2022 15:02:45.755 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:02:45.778 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [892] milliseconds
+11-May-2022 15:07:18.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+11-May-2022 15:07:18.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+11-May-2022 15:07:18.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+11-May-2022 15:07:18.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2022 15:07:18.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2022 15:07:18.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2022 15:07:18.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+11-May-2022 15:07:18.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+11-May-2022 15:07:18.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2022 15:07:18.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:07:18.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:07:18.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+11-May-2022 15:07:18.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2022 15:07:18.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2022 15:07:18.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2022 15:07:18.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2022 15:07:18.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:07:18.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:07:18.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+11-May-2022 15:07:18.172 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+11-May-2022 15:07:18.173 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2022 15:07:18.173 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2022 15:07:18.178 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+11-May-2022 15:07:18.468 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:07:18.494 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [487] milliseconds
+11-May-2022 15:07:18.527 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2022 15:07:18.527 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+11-May-2022 15:07:18.536 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+11-May-2022 15:07:18.902 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [198] milliseconds.
+11-May-2022 15:07:18.934 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [398] ms
+11-May-2022 15:07:18.934 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+11-May-2022 15:07:19.310 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [376] ms
+11-May-2022 15:07:19.311 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+11-May-2022 15:07:19.376 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [66] ms
+11-May-2022 15:07:19.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+11-May-2022 15:07:19.410 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [34] ms
+11-May-2022 15:07:19.410 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+11-May-2022 15:07:19.458 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [48] ms
+11-May-2022 15:07:19.463 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:07:19.491 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [995] milliseconds
+11-May-2022 15:14:50.160 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context []
+11-May-2022 15:14:50.160 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-May-2022 15:14:50.235 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-May-2022 15:28:49.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+11-May-2022 15:28:49.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+11-May-2022 15:28:49.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+11-May-2022 15:28:49.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2022 15:28:49.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2022 15:28:49.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2022 15:28:49.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+11-May-2022 15:28:49.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+11-May-2022 15:28:49.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2022 15:28:49.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:28:49.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:28:49.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+11-May-2022 15:28:49.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2022 15:28:49.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2022 15:28:49.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2022 15:28:49.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2022 15:28:49.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:28:49.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:28:49.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+11-May-2022 15:28:49.679 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+11-May-2022 15:28:49.679 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2022 15:28:49.680 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2022 15:28:49.685 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+11-May-2022 15:28:49.988 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:28:50.014 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [483] milliseconds
+11-May-2022 15:28:50.046 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2022 15:28:50.047 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+11-May-2022 15:28:50.057 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+11-May-2022 15:28:50.429 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [195] milliseconds.
+11-May-2022 15:28:50.457 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [400] ms
+11-May-2022 15:28:50.457 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+11-May-2022 15:28:50.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [461] ms
+11-May-2022 15:28:50.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+11-May-2022 15:28:50.969 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [51] ms
+11-May-2022 15:28:50.970 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+11-May-2022 15:28:51.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [30] ms
+11-May-2022 15:28:51.001 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+11-May-2022 15:28:51.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [37] ms
+11-May-2022 15:28:51.042 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:28:51.064 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1049] milliseconds
+11-May-2022 15:30:42.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+11-May-2022 15:30:42.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+11-May-2022 15:30:42.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+11-May-2022 15:30:42.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2022 15:30:42.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2022 15:30:42.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2022 15:30:42.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+11-May-2022 15:30:42.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+11-May-2022 15:30:42.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2022 15:30:42.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:30:42.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:30:42.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+11-May-2022 15:30:42.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2022 15:30:42.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2022 15:30:42.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2022 15:30:42.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2022 15:30:42.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:30:42.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:30:42.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+11-May-2022 15:30:42.997 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+11-May-2022 15:30:42.998 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2022 15:30:42.998 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2022 15:30:43.002 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+11-May-2022 15:30:43.301 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:30:43.325 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [485] milliseconds
+11-May-2022 15:30:43.353 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2022 15:30:43.354 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+11-May-2022 15:30:43.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+11-May-2022 15:30:43.727 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [194] milliseconds.
+11-May-2022 15:30:43.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [382] ms
+11-May-2022 15:30:43.749 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+11-May-2022 15:30:44.088 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [339] ms
+11-May-2022 15:30:44.088 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+11-May-2022 15:30:44.116 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [28] ms
+11-May-2022 15:30:44.117 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+11-May-2022 15:30:44.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [24] ms
+11-May-2022 15:30:44.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+11-May-2022 15:30:44.177 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [35] ms
+11-May-2022 15:30:44.183 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:30:44.198 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [872] milliseconds
+11-May-2022 15:35:41.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+11-May-2022 15:35:41.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+11-May-2022 15:35:41.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+11-May-2022 15:35:41.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2022 15:35:41.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2022 15:35:41.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2022 15:35:41.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+11-May-2022 15:35:41.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+11-May-2022 15:35:41.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2022 15:35:41.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:35:41.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:35:41.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+11-May-2022 15:35:41.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2022 15:35:41.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2022 15:35:41.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2022 15:35:41.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2022 15:35:41.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:35:41.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:35:41.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+11-May-2022 15:35:41.094 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+11-May-2022 15:35:41.094 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2022 15:35:41.094 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2022 15:35:41.099 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+11-May-2022 15:35:41.390 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:35:41.410 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [463] milliseconds
+11-May-2022 15:35:41.451 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2022 15:35:41.452 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+11-May-2022 15:35:41.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+11-May-2022 15:35:41.804 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [181] milliseconds.
+11-May-2022 15:35:41.824 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [362] ms
+11-May-2022 15:35:41.825 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+11-May-2022 15:35:42.140 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [315] ms
+11-May-2022 15:35:42.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+11-May-2022 15:35:42.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [28] ms
+11-May-2022 15:35:42.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+11-May-2022 15:35:42.205 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [36] ms
+11-May-2022 15:35:42.206 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+11-May-2022 15:35:42.247 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [42] ms
+11-May-2022 15:35:42.252 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:35:42.267 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [856] milliseconds
+11-May-2022 15:37:49.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+11-May-2022 15:37:49.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+11-May-2022 15:37:49.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+11-May-2022 15:37:49.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2022 15:37:49.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2022 15:37:49.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2022 15:37:49.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+11-May-2022 15:37:49.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+11-May-2022 15:37:49.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2022 15:37:49.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:37:49.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:37:49.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+11-May-2022 15:37:49.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2022 15:37:49.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2022 15:37:49.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2022 15:37:49.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2022 15:37:49.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:37:49.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:37:49.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+11-May-2022 15:37:49.727 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+11-May-2022 15:37:49.727 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2022 15:37:49.728 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2022 15:37:49.732 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+11-May-2022 15:37:50.034 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:37:50.060 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [497] milliseconds
+11-May-2022 15:37:50.097 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2022 15:37:50.097 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+11-May-2022 15:37:50.107 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+11-May-2022 15:37:50.444 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [181] milliseconds.
+11-May-2022 15:37:50.462 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [355] ms
+11-May-2022 15:37:50.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+11-May-2022 15:37:50.757 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [294] ms
+11-May-2022 15:37:50.757 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+11-May-2022 15:37:50.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [41] ms
+11-May-2022 15:37:50.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+11-May-2022 15:37:50.839 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [41] ms
+11-May-2022 15:37:50.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+11-May-2022 15:37:50.890 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [51] ms
+11-May-2022 15:37:50.896 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:37:50.915 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [854] milliseconds
+11-May-2022 15:40:28.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+11-May-2022 15:40:28.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+11-May-2022 15:40:28.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+11-May-2022 15:40:28.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2022 15:40:28.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2022 15:40:28.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2022 15:40:28.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+11-May-2022 15:40:28.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+11-May-2022 15:40:28.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2022 15:40:28.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:40:28.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:40:28.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+11-May-2022 15:40:28.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2022 15:40:28.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2022 15:40:28.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2022 15:40:28.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2022 15:40:28.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:40:28.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:40:28.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+11-May-2022 15:40:28.797 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+11-May-2022 15:40:28.797 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2022 15:40:28.797 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2022 15:40:28.802 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+11-May-2022 15:40:29.091 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:40:29.115 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [463] milliseconds
+11-May-2022 15:40:29.141 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2022 15:40:29.141 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+11-May-2022 15:40:29.150 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+11-May-2022 15:40:29.514 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [183] milliseconds.
+11-May-2022 15:40:29.534 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [384] ms
+11-May-2022 15:40:29.534 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+11-May-2022 15:40:29.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [384] ms
+11-May-2022 15:40:29.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+11-May-2022 15:40:29.965 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [46] ms
+11-May-2022 15:40:29.965 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+11-May-2022 15:40:29.993 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [28] ms
+11-May-2022 15:40:29.994 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+11-May-2022 15:40:30.032 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [39] ms
+11-May-2022 15:40:30.036 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:40:30.050 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [934] milliseconds
+11-May-2022 15:43:10.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.62
+11-May-2022 15:43:10.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 14:34:15 UTC
+11-May-2022 15:43:10.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.62.0
+11-May-2022 15:43:10.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2022 15:43:10.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2022 15:43:10.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2022 15:43:10.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_311
+11-May-2022 15:43:10.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_311-b11
+11-May-2022 15:43:10.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2022 15:43:10.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:43:10.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:43:10.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\conf\logging.properties
+11-May-2022 15:43:10.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2022 15:43:10.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2022 15:43:10.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2022 15:43:10.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2022 15:43:10.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:43:10.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62
+11-May-2022 15:43:10.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\temp
+11-May-2022 15:43:10.445 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+11-May-2022 15:43:10.445 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2022 15:43:10.446 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2022 15:43:10.450 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+11-May-2022 15:43:10.737 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:43:10.768 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [465] milliseconds
+11-May-2022 15:43:10.802 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2022 15:43:10.803 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.62]
+11-May-2022 15:43:10.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs]
+11-May-2022 15:43:11.191 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [190] milliseconds.
+11-May-2022 15:43:11.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\docs] has finished in [395] ms
+11-May-2022 15:43:11.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples]
+11-May-2022 15:43:11.522 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\examples] has finished in [312] ms
+11-May-2022 15:43:11.523 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager]
+11-May-2022 15:43:11.561 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\host-manager] has finished in [38] ms
+11-May-2022 15:43:11.562 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager]
+11-May-2022 15:43:11.596 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\manager] has finished in [34] ms
+11-May-2022 15:43:11.596 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT]
+11-May-2022 15:43:11.640 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\medoa\Desktop\apache-tomcat-9.0.62-windows-x64\apache-tomcat-9.0.62\webapps\ROOT] has finished in [44] ms
+11-May-2022 15:43:11.646 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2022 15:43:11.662 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [893] milliseconds

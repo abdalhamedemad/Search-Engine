@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [17/May/2022:20:21:17 +0200] "GET /index1.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/May/2022:20:21:25 +0200] "GET /getQuery?searchquery=java HTTP/1.1" 200 1783
+0:0:0:0:0:0:0:1 - - [17/May/2022:20:21:40 +0200] "GET /getQuery?searchquery=JavaScript HTTP/1.1" 200 1533
+0:0:0:0:0:0:0:1 - - [17/May/2022:20:21:51 +0200] "GET /getQuery?searchquery=algorithm HTTP/1.1" 200 1533
+0:0:0:0:0:0:0:1 - - [17/May/2022:20:24:20 +0200] "GET /index1.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/May/2022:20:24:24 +0200] "GET /getQuery?searchquery=java HTTP/1.1" 200 1783
+0:0:0:0:0:0:0:1 - - [17/May/2022:20:25:16 +0200] "GET /getQuery?searchquery=java HTTP/1.1" 200 1783
+0:0:0:0:0:0:0:1 - - [17/May/2022:20:25:21 +0200] "GET /getQuery?searchquery= HTTP/1.1" 200 2166
+0:0:0:0:0:0:0:1 - - [17/May/2022:20:39:19 +0200] "GET /getQuery?searchquery=watch HTTP/1.1" 200 1533
+0:0:0:0:0:0:0:1 - - [17/May/2022:20:39:38 +0200] "GET /getQuery?searchquery=watch HTTP/1.1" 200 1533

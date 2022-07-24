@@ -1,0 +1,355 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="css/style.css"/>
+    <!--<link rel="stylesheet" href="css/all.min.css" />-->
+    <!-- <link rel="stylesheet" href="{{ url_for ( 'static' , filename='style.css')}}" /> -->
+	<link rel="stylesheet" href="css/all.min.css">
+    <title>Search engine</title>
+    <style>
+        body{
+            display: contents;
+        }
+@import url(https://fonts.googleapis.com/css?family=Cabin:400);
+
+.webdesigntuts-workshop {
+	background: #151515;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.webdesigntuts-workshop:before,
+.webdesigntuts-workshop:after {
+	content: '';
+	display: block;	
+	height: 1px;
+	left: 50%;
+	margin: 0 0 0 -400px;
+	position: absolute;
+	width: 800px;
+}
+
+.webdesigntuts-workshop:before {
+	background: #444;
+	background: linear-gradient(left, #151515, #444, #151515);
+	top: 192px;
+}
+
+.webdesigntuts-workshop:after {
+	background: #000;
+	background: linear-gradient(left, #151515, #000, #151515);	
+	top: 191px;
+}
+
+.webdesigntuts-workshop form {
+	background: #111;
+	background: linear-gradient(#1b1b1b, #111);
+	border: 1px solid #000;
+	border-radius: 5px;
+	box-shadow: inset 0 0 0 1px #272727;
+	display: inline-block;
+	font-size: 0px;
+	margin: 150px auto 0;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+}
+
+.webdesigntuts-workshop input {
+	background: #222;	
+	background: linear-gradient(#333, #222);	
+	border: 1px solid #444;
+	border-radius: 5px 0 0 5px;
+	box-shadow: 0 2px 0 #000;
+	color: #888;
+	display: block;
+	float: left;
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	height: 40px;
+	margin: 0;
+	padding: 0 10px;
+	text-shadow: 0 -1px 0 #000;
+	width: 200px;
+}
+
+.ie .webdesigntuts-workshop input {
+	line-height: 40px;
+}
+
+.webdesigntuts-workshop input::-webkit-input-placeholder {
+   color: #888;
+}
+
+.webdesigntuts-workshop input:-moz-placeholder {
+   color: #888;
+}
+
+.webdesigntuts-workshop input:focus {
+	animation: glow 800ms ease-out infinite alternate;
+	background: #222922;
+	background: linear-gradient(#333933, #222922);
+	border-color: #393;
+	box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+	color: #efe;
+	outline: none;
+}
+
+.webdesigntuts-workshop input:focus::-webkit-input-placeholder { 
+	color: #efe;
+}
+
+.webdesigntuts-workshop input:focus:-moz-placeholder {
+	color: #efe;
+}
+
+.webdesigntuts-workshop button {
+	background: #222;
+	background: linear-gradient(#333, #222);
+	box-sizing: border-box;
+	border: 1px solid #444;
+	border-left-color: #000;
+	border-radius: 0 5px 5px 0;
+	box-shadow: 0 2px 0 #000;
+	color: #fff;
+	display: block;
+	float: left;
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-shadow: 0 -1px 0 #000;
+	width: 80px;
+}	
+
+.webdesigntuts-workshop button:hover,
+.webdesigntuts-workshop button:focus {
+	background: #292929;
+	background: linear-gradient(#393939, #292929);
+	color: #5f5;
+	outline: none;
+}
+
+.webdesigntuts-workshop button:active {
+	background: #292929;
+	background: linear-gradient(#393939, #292929);
+	box-shadow: 0 1px 0 #000, inset 1px 0 1px #222;
+	top: 1px;
+}
+
+@keyframes glow {
+    0% {
+		border-color: #393;
+		box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    }	
+    100% {
+		border-color: #6f6;
+		box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}
+.logo{
+	position: relative;
+    left: -50%;
+    
+    z-index: 100;
+	color: aliceblue;
+	top: 95px;
+	font-size: xx-large;
+	animation: glow 800ms ease-out infinite alternate;
+	background: #222922;
+	background: linear-gradient(#333933, #222922);
+	border-color: #393;
+	box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+	color: #efe;
+	outline: none;
+}
+.webdesigntuts-workshop button.mic {
+    width: auto;
+    padding: revert;
+    border-radius: 0px 0px 0px 0px;
+}
+form button.show{
+	position: absolute;
+    left: -415px;
+    top: 39px;
+}
+.autocomplete{display: inline;}
+
+
+
+    </style>
+
+</head>
+<body>
+    <nav>
+       
+    </nav>
+    <main>
+		<div style="position: absolute; left: 50%;">
+			<div style="position: relative; left: -50%; border: dotted red 1px;" class="logo">
+			 APT <br />
+			  
+			</div>
+		  </div>
+   
+ 
+           
+        
+            <section class="webdesigntuts-workshop">
+                <form  action="/getQuery" method="get">
+					<!-- <div class="autocomplete" style="width:300px;"> -->
+					<input id="kk" type="search" placeholder="What are you looking for?"name="searchquery">			    
+				<!-- </div> -->
+					<button class="mic" type="button" onclick="runSpeechRecognition()"><i class="fa-solid fa-microphone"></i></button> &nbsp; <span id="action" hidden></span>
+					<div id="output" class="hide" hidden></div>
+                
+						    	
+                    <button>Search</button>
+				 
+                </form>
+				
+				<!-- <form action="/getquery2" class="show"><button>shh</button></form> -->
+			
+        
+            </section>
+			<!-- <input type="file" name="file" id="file"  hidden value="a.txt"/> -->
+       
+   </main>
+    <!-- <form action="" class="show"><button>shh</button></form> -->
+   <script>
+	// The Function
+	function runSpeechRecognition() {
+		// get output div reference
+		var output = document.getElementById("output");
+		// get action element reference
+		var action = document.getElementById("action");
+		// new speech recognition object
+		var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
+		var recognition = new SpeechRecognition();
+		
+	
+		// This runs when the speech recognition service starts
+		recognition.onstart = function() {
+			action.innerHTML = "<small>I'm listening, please speak...</small>";
+		};
+		
+		recognition.onspeechend = function() {
+			action.innerHTML = "<small>stopped listening...</small>";
+			recognition.stop();
+		}
+	  
+		// This runs when the speech recognition service returns result
+		recognition.onresult = function(event) {
+			var transcript = event.results[0][0].transcript;
+			var confidence = event.results[0][0].confidence;
+			//output.innerHTML = "<b>Text:</b> " + transcript + "<br/> <b>Confidence:</b> " + confidence*100+"%";
+			document.getElementById('kk').value=transcript;
+			document.getElementById('kk').focus();
+
+			output.classList.remove("hide");
+		};
+	  
+		 // start recognition
+		 recognition.start();
+	}
+	// var x;
+
+   function autocomplete(searchEle, arr) {
+      var currentFocus;
+      searchEle.addEventListener("input", function(e) {
+         var divCreate,
+         b,
+         i,
+         fieldVal = this.value;
+         closeAllLists();
+         if (!fieldVal) {
+            return false;
+         }
+         currentFocus = -1;
+         divCreate = document.createElement("DIV");
+         divCreate.setAttribute("id", this.id + "autocomplete-list");
+         divCreate.setAttribute("class", "autocomplete-items");
+         this.parentNode.appendChild(divCreate);
+         for (i = 0; i <arr.length; i++) {
+            if ( arr[i].substr(0, fieldVal.length).toUpperCase() == fieldVal.toUpperCase() ) {
+               b = document.createElement("DIV");
+               b.innerHTML = "<strong>" + arr[i].substr(0, fieldVal.length) + "</strong>";
+               b.innerHTML += arr[i].substr(fieldVal.length);
+               b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+               b.addEventListener("click", function(e) {
+                  searchEle.value = this.getElementsByTagName("input")[0].value;
+                  closeAllLists();
+               });
+               divCreate.appendChild(b);
+            }
+         }
+      });
+      searchEle.addEventListener("keydown", function(e) {
+         var autocompleteList = document.getElementById(
+            this.id + "autocomplete-list"
+         );
+         if (autocompleteList)
+            autocompleteList = autocompleteList.getElementsByTagName("div");
+         if (e.keyCode == 40) {
+            currentFocus++;
+            addActive(autocompleteList);
+         }
+         else if (e.keyCode == 38) {
+            //up
+            currentFocus--;
+            addActive(autocompleteList);
+         }
+         else if (e.keyCode == 13) {
+            e.preventDefault();
+            if (currentFocus > -1) {
+               if (autocompleteList) autocompleteList[currentFocus].click();
+            }
+         }
+      });
+      function addActive(autocompleteList) {
+         if (!autocompleteList) return false;
+            removeActive(autocompleteList);
+         if (currentFocus >= autocompleteList.length) currentFocus = 0;
+         if (currentFocus < 0) currentFocus = autocompleteList.length - 1;
+         autocompleteList[currentFocus].classList.add("autocomplete-active");
+      }
+      function removeActive(autocompleteList) {
+         for (var i = 0; i < autocompleteList.length; i++) {
+            autocompleteList[i].classList.remove("autocomplete-active");
+         }
+      }
+      function closeAllLists(elmnt) {
+         var autocompleteList = document.getElementsByClassName(
+            "autocomplete-items"
+         );
+         for (var i = 0; i < autocompleteList.length; i++) {
+            if (elmnt != autocompleteList[i] && elmnt != searchEle) {
+               autocompleteList[i].parentNode.removeChild(autocompleteList[i]);
+            }
+         }
+      }
+      document.addEventListener("click", function(e) {
+         closeAllLists(e.target);
+      });
+   }
+   var animals = ["giraffe","tiger", "lion", "dog","cow","bull","cat","cheetah"];
+// var fs = require('fs');
+
+
+
+   autocomplete(document.getElementById("kk"), animals);
+
+
+
+</script>
+</body>
+</html>
